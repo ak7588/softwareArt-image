@@ -2,13 +2,14 @@
 
 This openFrameworks project simulates the day and the night in a hypothetical city. The image in the centre of the canvas combines several architectural pieces from different cities in the UAE. The style of added architectural pieces -- the houses -- is inspired by the paper town image found on the internet; hence is the name of the project.
 
-![bin/data/uae.png]
+![original image with the city](https://github.com/ak7588/softwareArt-image/blob/main/Project%201/bin/data/uae.png)
+![paper towns](https://github.com/ak7588/softwareArt-image/blob/main/Project%201/bin/data/paperTowns.jpeg)
 
 ## Process
 
 I started off by collecting the colors from the original image and placing them into my color objects in the code. Then, I drew several rectangles and triangles to represent the houses. All of them are placed imperfectly -- and that is made on purpose, to translate the low-fidelity, paper-like style.
 
-![image]
+![image with extracted colors](https://github.com/ak7588/softwareArt-image/blob/main/Project%201/bin/data/colors.png)
 
 ## Code
 
@@ -20,5 +21,5 @@ While I made a significant progress in understanding openFrameworks and the GUI 
 
 ## Result
 
-![bin/data/screenshot_000.png]
-![bin/data/screenshot_001.png]
+![day](https://github.com/ak7588/softwareArt-image/blob/main/Project%201/bin/data/screenshot_000.png)
+![night](https://github.com/ak7588/softwareArt-image/blob/main/Project%201/bin/data/screenshot_001.png)
