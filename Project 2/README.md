@@ -8,13 +8,13 @@ It's motion time! For this project, I wanted to play around with pixel manipulat
 
 ## Shapes and Color
 
-I started off by taking the Mario Spritesheet and cutting it by pixels to represent motion in four directions -- left, right, up, and down. The color palette was pre-determined by the spritesheet [https://www.pinterest.com/pin/721631540269147334/](creators), so all that was left for me to decide were the GUI design and the background choice. So I went for the pixel art that I found online: [https://www.hiclipart.com/search?clipart=pixel+house](the house), [https://www.freepik.com/premium-vector/pixel-8-bit-game-background-with-ground-cloudy-sky-panorama_3805848.htm](the background), and [https://www.pixeldiamondgames.com/logo.png](the diamond).
+I started off by taking the Mario Spritesheet and cutting it by pixels to represent motion in four directions -- left, right, up, and down. The color palette was pre-determined by the spritesheet [creators](https://www.pinterest.com/pin/721631540269147334/), so all that was left for me to decide were the GUI design and the background choice. So I went for the pixel art that I found online: [the house](https://www.hiclipart.com/search?clipart=pixel+house), [the background](https://www.freepik.com/premium-vector/pixel-8-bit-game-background-with-ground-cloudy-sky-panorama_3805848.htm), and [the diamond](https://www.pixeldiamondgames.com/logo.png).
 
 ## R/Evolution
 
 The "motion" essence of the game is the movement of the spritesheet. After failing to use some of the existing spritesheet add-ons, I decided to tackle this project by creating four different <ofImage> type vectors that loop through each of the Mario's steps in four directions. The key to this was figuring out the following loop-trick:
 
-''' C++
+'''
 if (ofGetFrameNum() % speed == 0){
               step = (step + 1) % 4;
 }
