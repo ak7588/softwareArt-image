@@ -8,7 +8,7 @@ Demo: https://youtu.be/cdQetc7PvUE
 
 ## R/Evolution
 
-[https://github.com/ak7588/softwareArt-image/blob/main/Project%202/screen_0.png](welcome image)
+[welcome image](https://github.com/ak7588/softwareArt-image/blob/main/Project%202/screen_0.png)
 
 ## Concept
 
